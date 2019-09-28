@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "git-service"
+version = "0.1.0"
+description = ""
+authors = ["Nikita Kharlov <nikita@harlov.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+Django = "^2.2"
+djangorestframework = "^3.10"
+django-filter = "^2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
